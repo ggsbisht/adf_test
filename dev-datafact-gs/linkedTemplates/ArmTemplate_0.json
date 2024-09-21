@@ -37,7 +37,7 @@
 						}
 					},
 					{
-						"name": "Wait3",
+						"name": "Wait4",
 						"type": "Wait",
 						"dependsOn": [],
 						"userProperties": [],
