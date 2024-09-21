@@ -51,3 +51,9 @@ jobs:
         with:
           resourceGroupName: ${{ secrets.AZURE_RG }} 
           dataFactoryName: ${{ secrets.AZURE_DATA_FACTORY }} 
+          # with:
+          # subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+          # resourceGroupName: ${{ secrets.AZURE_RESOURCE_GROUP }}  # Target Resource Group
+          # template: './arm-templates/template.json'  # ARM template file path
+          # parameters: './arm-templates/parameters.json'  # Parameters file path
+          # deploymentName: 'adf-deployment'
