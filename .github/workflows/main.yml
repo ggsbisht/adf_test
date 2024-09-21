@@ -54,6 +54,6 @@ jobs:
           # with:
           # subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
           # resourceGroupName: ${{ secrets.AZURE_RESOURCE_GROUP }}  # Target Resource Group
-          # template: './arm-templates/template.json'  # ARM template file path
-          # parameters: './arm-templates/parameters.json'  # Parameters file path
+          # template: './arm-templates/ARMTemplateForFactory.json'  # ARM template file path
+          # parameters: './arm-templates/ARMTemplateParametersForFactory.json'  # Parameters file path
           # deploymentName: 'adf-deployment'
