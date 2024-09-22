@@ -3,25 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Wait2duud3",
-				"type": "Wait",
-				"dependsOn": [],
-				"userProperties": [],
-				"typeProperties": {
-					"waitTimeInSeconds": 1
-				}
-			},
-			{
-				"name": "Wait223d",
-				"type": "Wait",
-				"dependsOn": [],
-				"userProperties": [],
-				"typeProperties": {
-					"waitTimeInSeconds": 1
-				}
-			},
-			{
-				"name": "Wait203",
+				"name": "sikkki_time",
 				"type": "Wait",
 				"dependsOn": [],
 				"userProperties": [],
