@@ -61,6 +61,6 @@ jobs:
         with:
           resourceGroupName: ${{ secrets.AZURE_RG }} 
           dataFactoryName: ${{ secrets.AZURE_DATA_FACTORY }} 
-          template: './arm-templates/ARMTemplateForFactory.json'  # ARM template file path
-          parameters: './arm-templates/ARMTemplateParametersForFactory.json'  # Parameters file path
+          template: './adf_publish/ARMTemplateForFactory.json'  # ARM template file path
+          parameters: './adf_publish/ARMTemplateParametersForFactory.json'  # Parameters file path
           deploymentName: 'adf-deployment'
