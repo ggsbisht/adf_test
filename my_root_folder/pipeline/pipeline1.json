@@ -21,7 +21,7 @@
 				}
 			},
 			{
-				"name": "Wait24",
+				"name": "Wait24d",
 				"type": "Wait",
 				"dependsOn": [],
 				"userProperties": [],
