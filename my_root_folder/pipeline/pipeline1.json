@@ -12,7 +12,7 @@
 				}
 			},
 			{
-				"name": "Wait1233",
+				"name": "Wait1",
 				"type": "Wait",
 				"dependsOn": [],
 				"userProperties": [],
