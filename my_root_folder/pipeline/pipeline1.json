@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "sikkkif"
+				"name": "sikkki_timedfd",
 				"type": "Wait",
 				"dependsOn": [],
 				"userProperties": [],
@@ -39,7 +39,7 @@
 				}
 			},
 			{
-				"name": "Wait1dd",
+				"name": "Wait2fgfdg",
 				"type": "Wait",
 				"dependsOn": [],
 				"userProperties": [],
