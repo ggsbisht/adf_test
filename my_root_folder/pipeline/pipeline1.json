@@ -3,34 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "sikkkif"
-				"type": "Wait",
-				"dependsOn": [],
-				"userProperties": [],
-				"typeProperties": {
-					"waitTimeInSeconds": 1
-				}
-			},
-			{
-				"name": "Wait12444ddd",
-				"type": "Wait",
-				"dependsOn": [],
-				"userProperties": [],
-				"typeProperties": {
-					"waitTimeInSeconds": 1
-				}
-			},
-			{
-				"name": "Wait23",
-				"type": "Wait",
-				"dependsOn": [],
-				"userProperties": [],
-				"typeProperties": {
-					"waitTimeInSeconds": 1
-				}
-			},
-			{
-				"name": "Wait_today113333",
+				"name": "sikkki",
 				"type": "Wait",
 				"dependsOn": [],
 				"userProperties": [],
@@ -40,6 +13,15 @@
 			},
 			{
 				"name": "Wait1dd",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
+			},
+			{
+				"name": "test_wait",
 				"type": "Wait",
 				"dependsOn": [],
 				"userProperties": [],
