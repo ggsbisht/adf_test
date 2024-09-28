@@ -26,15 +26,13 @@ jobs:
           path: cd my_root_folder/factory/dev-datafact-gs
           id: /subscriptions/9159e293-4e60-412b-83bf-2db7438e23c9/resourceGroups/rg-datafact/providers/Microsoft.DataFactory/factories/dev-datafact-gs
             
-     
-
       - name: Export Azure Data Factory
         id: export
         uses: Azure/data-factory-export-action@v1.2.0
-     
-      
+
+          
       - name: Publish ARM template
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v2
         with:
           name: adf-armtemplate
           path: ${{ steps.export.outputs.arm-template-directory }}
