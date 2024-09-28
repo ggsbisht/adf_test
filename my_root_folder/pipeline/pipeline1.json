@@ -12,7 +12,7 @@
 				}
 			},
 			{
-				"name": "Wait5dd",
+				"name": "Waitd",
 				"type": "Wait",
 				"dependsOn": [],
 				"userProperties": [],
