@@ -23,7 +23,7 @@ jobs:
       - name: Validate ARM template
         uses: Azure/data-factory-validate-action@v1.1.5
         with:
-          path: /my_root_folder/factory/dev-datafact-gs
+          path: cd my_root_folder/factory/dev-datafact-gs
           id: /subscriptions/9159e293-4e60-412b-83bf-2db7438e23c9/resourceGroups/rg-datafact/providers/Microsoft.DataFactory/factories/dev-datafact-gs
             
      
