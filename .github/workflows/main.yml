@@ -47,6 +47,8 @@ jobs:
         with:
           name: adf-armtemplate
           path: ${{ steps.export.outputs.arm-template-directory }}
+          run: |
+            echo "Checking path: ${{ steps.export2.outputs.arm-template-directory }}"
           if-no-files-found: error
 
   
